@@ -1,5 +1,7 @@
 # Interactive KMeans
 
+![kmeans](./assets/readme-kmeans.gif)
+
 2D grayscale image KMeans implementation in C with an interactive visualization tool built using [Raylib](https://www.raylib.com/).
 
 This project focuses on implementing KMeans from scratch, keeping the algorithm independent from the UI layer, and exploring algorithmic and performance improvements.
