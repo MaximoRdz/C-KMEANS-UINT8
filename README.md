@@ -118,5 +118,4 @@ Where:
 - [ ] Single-pass image reconstruction
 - [ ] KMeans++ initialization
 - [ ] Multi-threaded computation
-- [ ] Dedicated benchmark harness
 
