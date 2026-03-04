@@ -37,15 +37,7 @@ $$|\mathcal{D}| = 256 \quad \text{unique possible values}$$
 
 Even if the image contains $n \gg 256$ pixels, the number of *distinct* inputs never exceeds 256.
 
----
-
-## Key Observation
-
-$$\forall\, p_i, p_j \;:\; p_i = p_j \implies \text{cluster}(p_i) = \text{cluster}(p_j)$$
-
 All pixels sharing the same gray value are always assigned to the same cluster in a given iteration. There is no need to evaluate each one individually.
-
----
 
 ## Optimization Strategy
 

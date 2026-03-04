@@ -5,5 +5,6 @@
 
 
 void kmeans_uint8(const uint8_t *data, size_t length, size_t k, uint8_t *output);
+void kmeans_uint8_histogram(const uint8_t *data, size_t length, size_t k, uint8_t *output);
 
 #endif

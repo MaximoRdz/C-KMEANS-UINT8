@@ -107,13 +107,14 @@ Where:
 - `n` = number of pixels
 - `k` = number of clusters
 
-> Since grayscale images only contain 256 possible values, further optimization is possible.
+Since we are working with gray uint8 images histogram-based implementation [here](https://github.com/MaximoRdz/C-KMEANS-UINT8/blob/main/histogram-based-kmeans.md)
+allowed to push time complexity down to `O(256 x k)`
 
 ---
 
 ## Future Improvements
 
-- [ ] Histogram-based KMeans (reduce complexity to `O(256 × k)`)
+- [x] Histogram-based KMeans (reduce complexity to `O(256 × k)`)
 - [ ] Lookup table (0–255 → centroid value)
 - [ ] Single-pass image reconstruction
 - [ ] KMeans++ initialization

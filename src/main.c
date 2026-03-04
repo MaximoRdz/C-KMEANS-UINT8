@@ -120,7 +120,8 @@ void run_interactive_mode(InteractiveConfig cfg)
                 app.show_raw = 0;
             }
             if (!app.show_raw && app.current_k != app.requested_k) {
-                kmeans_uint8(
+                // kmeans_uint8(
+                kmeans_uint8_histogram(
                     app.original->data,
                     total_pixels,
                     app.requested_k,
